@@ -9,4 +9,7 @@ idade = 27.5;
 
 console.log(idade);
 
+//boolean
+let possuiHobbies = false;
 
+console.log(possuiHobbies);
