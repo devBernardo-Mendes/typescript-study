@@ -1,3 +1,2 @@
-export interface IResponse {
-  teste: string;
-}
+let nome = "Joao";
+console.log(nome);
