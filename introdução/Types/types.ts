@@ -22,3 +22,7 @@ console.log(typeof minhaIdade);
 let hobbies: any[] = ["Cozinhar", "Praticar Esportes"];
 console.log(hobbies[1]);
 console.log(typeof hobbies);
+
+// tipos tuplas
+let endereço: [string, number] = ["Av principal", 99]; // a regra da tupla tem que ser definida de acordo com o tipo estipulado
+console.log(endereço);
