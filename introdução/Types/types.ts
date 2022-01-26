@@ -37,5 +37,10 @@ enum Cor {
 }
 
 let minhaCor: Cor = Cor.Azul;
-
 console.log(minhaCor, Cor.Vermelho);
+
+// tipo any - Exatamente qualquer coisa, usado quando não se sabe ao certo o tipo da variável, a principal situação é quando não sabemos os tipos das entidades de uma biblioteca terceira.
+let carro: any = "AUDI";
+console.log(carro);
+carro = { marca: "AUDI", ano: 2019 };
+console.log(carro);
