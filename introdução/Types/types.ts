@@ -67,6 +67,13 @@ console.log(multiplicar(4.7, 9));
 
 // funçoes tipos
 
-const teste = function (a: number, b: number): boolean {
-  return false;
-};
+let calculo: (x: number, y: number) => number; // os tipos sao importante, porem o nomes das variaveis nao 
+
+// calculo = digaOi;
+// calculo(); diga 'OI' nao pode ser execultado ja que o tipo é void
+
+calculo = multiplicar;
+console.log(calculo(5, 6));
+
+
+
