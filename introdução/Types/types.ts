@@ -44,3 +44,29 @@ let carro: any = "AUDI";
 console.log(carro);
 carro = { marca: "AUDI", ano: 2019 };
 console.log(carro);
+
+// funçoes
+
+function retonarMeuNome(): string {
+  return nome;
+}
+
+console.log(retonarMeuNome());
+
+function digaOi(): void {
+  console.log("Oi");
+}
+digaOi();
+
+function multiplicar(numA: number, numB: number): number {
+  return numA * numB;
+}
+// console.log(multiplicar(2, "Bia")); nao pode pq nao fica legal esse tipo de conferencia
+
+console.log(multiplicar(4.7, 9));
+
+// funçoes tipos
+
+const teste = function (a: number, b: number): boolean {
+  return false;
+};
